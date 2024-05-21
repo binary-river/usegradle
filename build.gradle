@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+//실행할 main 클래스를 지정해요!
+mainClassName = 'hello.HelloWorld'
+
+//repository 선언. External Dependency 라이브러리들을 여기서 가져오도록 지정해줘요!
+repositories {
+   mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+//컴파일, 런타임, 테스트시에 필요한 라이브러리를 지정해요!
+dependencies { 
+	implementation "joda-time:joda-time:2.2"
+	testImplementation "junit:junit:4.12"
+}
+
+//생성할 jar파일 이름과 버전을 설정해요!
+jar {
+	archiveBaseName = 'use-gradle'
+	archiveVersion = '0.1.0'
+}
+
