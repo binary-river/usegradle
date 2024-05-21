@@ -1,6 +1,6 @@
 <h1 align="center">Gradle 빌드 기초 템플릿 👋</h1>
 <p>
-  <a href="" target="_blank">
+  <a href="/" target="_blank">
     <img alt="Static Badge" src="https://img.shields.io/badge/License-ASLv2-yellow" />
   </a>
 </p>
