@@ -1,5 +1,9 @@
 <h1 align="center">Gradle 빌드 기초 템플릿 👋</h1>
-
+<p>
+  <a href="mit" target="_blank">
+    <img alt="Static Badge" src="https://img.shields.io/badge/License-ASLv2-yellow" />
+  </a>
+</p>
 > Gradle로 Java Project를 빌드하는 기초적인 방법이예요! <br>
 >
 > 빌드를 원하는 Java Project에 들어가 build.gradle을 생성해주세요. <br>
